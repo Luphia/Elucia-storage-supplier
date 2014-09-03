@@ -1,0 +1,89 @@
+<div class="sysSupplierCofMenuBackup">
+
+    <div class="tagArea">
+        <div class="tag backupSetting clilced ">備份設定</div>
+        <div class="tag restoreSetting">復原設定</div>
+        <div class="tag keySetting">金鑰設定</div>
+    </div>
+
+    <div class="tagContent">
+        <div class="backup">
+            <div class="rightNow">
+                <input type="button" name="backupNow" value="立即備份">
+            </div>
+           <table name="backupPathSetting" class ="tableStyle">
+                <tr>
+                    <th colspan="3">備份間隔設定</th>
+                </tr>
+                <tr>
+                    <td>%{sysSupplierCofMenuBackup.BackupPeriod}</td>
+                    <td colspan="2">
+                        <select name="period">
+                            <option value='30'>30 mins</option>
+                            <option value='60'>1 hours</option>
+                            <option value='120'>2 hours</option>
+                            <option value='240'>4 hours</option>
+                            <option value='480'>8 hours</option>
+                            <option value='720'>12 hours</option>
+                            <option value='1440'>1 day</option>              
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="3">備份路徑設定</th>
+                </tr>
+                <tr>
+                    <td colspan="3" class="addIconTd">
+                        <div title="add path" class="addBackupIcon"></div>
+                    </td>
+                </tr> 
+            </table>
+            <div class="submit">
+                <input type="button" name="backupSubmit" value="確定">
+            </div>
+        </div>
+
+        <div class="restore">
+             <table name="pathSetting" class ="tableStyle">
+                <tr>
+                    <th colspan="3">復原路徑設定</th>
+                </tr>
+                <tr>
+                    <td colspan="3" class="addIconTd">
+                        <div title="add path" class="addIcon"></div>
+                    </td>
+                </tr>
+            </table>
+             <div class="submit">
+                <input type="button" name="restoreSubmit" value="確定">
+            </div>
+        </div>  
+
+         <div class="keySet">
+             <table name="keySetting" class ="tableStyle">
+                <tr>
+                    <th colspan="2">金鑰設定</th>
+                </tr>
+                <tr>
+                    <td>金鑰下載</td>
+                    <td>
+                        <a href="/sysSupplierConfig/keyGet" target="_blank">下載</a>
+                        <!-- <input type="button" name="keyDownload" value="下載"> -->
+                    </td>
+                </tr>
+                <tr>
+                    <td>金鑰上傳</td>
+                    <td>
+                        <input type="file" name="keyUpload" id="files">
+                        <input type="button" name="keyUploadSure" value="確定">
+                        <progress id="uploadProgress"></progress>
+                    </td>
+                </tr>
+            </table>
+        </div>        
+    </div>
+
+    <div class="shadow"></div>
+    <div class="listDir"></div>
+
+</div>

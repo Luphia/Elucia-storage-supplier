@@ -1,0 +1,59 @@
+div.sysSupplierCofMenu div.item
+{
+	background-color: #dcb;
+	border-radius: 10px;
+	width: 70px;
+	height: 70px;
+	margin: 0 0 35px 30px; 
+	text-align: center;
+	cursor: pointer;
+	position: relative;	
+}
+
+div.sysSupplierCofMenu div.item div.img
+{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	left: -5px;
+	top:-5px;
+}
+
+div.sysSupplierCofMenu div.item div.basicImg
+{
+	background: url("images/basic.png") no-repeat;
+}
+
+div.sysSupplierCofMenu div.item div.backupImg
+{
+	background: url("images/backup.png") no-repeat;
+}
+
+div.sysSupplierCofMenu div.item div.shareImg
+{
+	background: url("images/share.png") no-repeat;
+	left: -2px;
+	top:0px;
+}
+
+div.sysSupplierCofMenu div.item div.msgImg
+{
+	background: url("images/msg.png") no-repeat;
+}
+
+div.sysSupplierCofMenu div.item div.text
+{
+	position: absolute;
+	top:70px;
+	text-align: center;
+	width: 100%;
+	white-space: nowrap;
+}
+
+div.sysSupplierCofMenu div.clicked
+{
+	background-color: rgb(223,223,223);
+	box-shadow:0 0 3px 2px rgba(20%,20%,40%,0.5);
+	color: #fff;
+	text-shadow:0px 0px 9px #000;
+}

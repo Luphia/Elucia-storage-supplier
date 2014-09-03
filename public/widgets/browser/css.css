@@ -1,0 +1,89 @@
+div.browser {
+  background-color: #cccccc;
+  border: 5px solid #eeeeee;
+  display: block;
+  height: 495px;
+  width: 880px;
+}
+
+div.browser > div.operate {
+	/* background: #def; */
+  background-color: #ddccbb;
+  border-top: 2px solid #bbaa99;
+  border-bottom: 2px solid #bbaa99;
+  display: block;
+	height: 40px;
+  padding-top: 16px;
+  text-align: center;
+  width: 880px;	
+}
+
+div.browser > div.list {
+  /* background: #7777ff; */
+  float: left;
+  height: 420px;
+  overflow: auto;
+  padding-left: 10px;
+  padding-top: 15px;
+  width: 180px;
+}
+
+div.browser div.table {
+    background-color: rgb(230, 220, 210);
+    border-bottom: 2px solid #bbaa99;
+    color: #887766;
+    font-family: "Time New Roman";
+    font-size: 18px;
+    font-weight: bold;
+    height: 26px;
+    margin-left: 190px;
+    padding-left: 10px;
+    padding-top: 2px;
+    width: 680px;
+}
+
+div.browser > div.content {
+	/* background: #bcd; */
+  height: 395px;
+  padding-top: 10px;
+  overflow-x: auto;
+  overflow-y: auto;
+	width: 690px; 
+}
+
+div.operate > div {
+    float: left;
+}
+
+div.browser div.table > div {
+    float: left;
+}
+
+div.browser div.table > div:nth-child(1) {
+    width: 140px;
+}
+
+div.table > div > div {
+    float: left;
+}
+
+div.browser div.table > div:nth-child(2) {
+    width: 120px;
+}
+
+div.browser div.table > div:nth-child(3) {
+    width: 80px;
+}
+
+div.content div.table > div:nth-child(4) {
+    width: 160px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #666666;
+}

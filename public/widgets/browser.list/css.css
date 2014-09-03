@@ -1,0 +1,55 @@
+.indicator {
+    background: url(./images/arrow.png) no-repeat;
+    background-size: 14px;
+    -webkit-background-size: 14px;
+    cursor: pointer;
+}
+
+.hover {
+    background-color: rgba(160, 176, 192, 0.2);
+}
+
+.selected {
+    background: #a0b0c0;
+    color: #6060ff;
+    font-weight: bold;
+}
+
+div.folder {
+    clear: left;
+    display: none;
+    padding-left: 15px;
+    width: 180px;
+}
+
+div.folder > div {
+    float: left;  
+}
+
+div.folder > div.icon {
+    background: url(./images/folder.png) no-repeat;
+    background-size: 20px;
+    -webkit-background-size: 20px;
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+
+div.folder > div.name {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+div.folder > div.path {
+    display: none;
+}
+
+div.folder > div#indicator {
+    display: block;
+    margin-top: 4px;
+    width: 14px;
+    height: 14px;
+}

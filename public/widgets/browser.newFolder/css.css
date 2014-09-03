@@ -1,0 +1,85 @@
+.folderIcon {
+  background: url(./images/folder.png);
+}
+
+.hover {
+    background-color: rgba(160, 176, 192, 0.5);
+}
+
+.small {
+    background-size: 40px;
+    -webkit-background-size: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+}
+
+.standard {
+    background-size: 80px;
+    -webkit-background-size: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 80px;
+}
+
+.grid {
+  float: left;
+  margin: 2px;
+  width: 100px;
+}
+
+.list {
+  clear: left;
+  height: 40px;
+  margin: 0px;
+  width: 640px;
+}
+
+div#newfolder {
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    display: block;
+    font-size: .8em;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+div#newfolder > div#icon {
+    cursor: pointer;
+    display: block;
+}
+
+div#newfolder > div.name {
+    cursor: text;
+    overflow: hidden;
+    text-align: center;
+    text-overflow:ellipsis;  
+    width: 100px;
+}
+
+div#newfolder > div.date {
+    display: none;
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 116px;
+}
+
+div#newfolder > div.type {
+    display: none;
+}
+
+div#newfolder > div.size {
+    display: none;
+    width: 80px;
+}
+
+div#newfolder > div.path {
+    display: none;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    width: 300px;
+}

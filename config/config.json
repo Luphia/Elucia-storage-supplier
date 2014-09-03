@@ -1,0 +1,44 @@
+{
+  "enable": true,
+  "filterPath": [
+    "/file/"
+  ],
+  "rabbitMQ": {
+    "host": "10.10.10.10",
+    "port": 5672
+  },
+  "JobQueue": "JobQueue",
+  "expireTime": 86400,
+  "uploadPath": ".upload/",
+  "communicationPort": 3000,
+  "machineUID": "III0001",
+  "companyName": "III",
+  "companyContact": "Taipei XXXXXXX",
+  "registerDiskSpace": 10,
+  "upload_speed_limit": 100,
+  "download_speed_limit": 122880,
+  "supplierMonitorPeriod": 3000,
+  "crypto": {
+    "algorithm": "aes-256-cbc",
+    "secret": "d8yte8ng71dnfu30"
+  },
+  "serverIP": "10.10.20.96",
+  "agent": {
+    "ip": "10.10.20.19",
+    "port": 8888
+  },
+  "storageDevice": "C",
+  "storageSyncInerval": 60000,
+  "hwStoreInerval": 5000,
+  "heartbeatInerval": 30000,
+  "gcInerval": 60000,
+  "db": {
+    "host": "10.10.21.18",
+    "user": "iServStorage",
+    "password": "iServStorage",
+    "port": "5432",
+    "database": "iServStorage"
+  },
+  "commandPath": "../commands/",
+  "register": "a10f879586f9f4b03a0fe5cb5712aca9"
+}

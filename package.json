@@ -1,0 +1,20 @@
+{
+  "name": "application-name",
+  "main": "/public/index.html",
+  "node-main": "app.js",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "3.1.0",
+    "jade": "*",
+    "node-schedule": "*",
+    "sqlite3": "https://github.com/developmentseed/node-sqlite3/tarball/master"
+  },
+  "window": {
+      "title": "iServStorage",
+      "icon": "/public/images/logo.png"
+  }
+}

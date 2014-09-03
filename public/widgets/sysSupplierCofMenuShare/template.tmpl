@@ -1,0 +1,28 @@
+<div class="sysSupplierCofMenuShare">
+	<table class ="tableStyle">
+    	<tbody>
+    		<tr>
+    			<th colspan="2">%{sysSupplierCofMenuShare.shareSetting}</th>
+    		</tr>
+    		<tr>
+		        <td>%{sysSupplierCofMenuShare.flowLimit}</td>
+		        <td>
+                    <input type="range" name="slideFlowLimit" min="0" max="204800">
+                    <input type="text"  class="rangeText" name="flowLimit">
+                    <div class="explain">KB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0為無限制</div>
+                </td>
+    		</tr>
+    		<tr>
+                <td>%{sysSupplierCofMenuShare.spaceLimit}</td>
+                <td>
+                    <input type="range" name="slideSpaceLimit" min="0" max="20">
+                    <input type="text" class="rangeText" name="spaceLimit">
+                    <div class="explain">GB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0為無限制</div>
+                </td>
+            </tr>
+		</tbody>
+	</table>
+    <div class="submit">
+        <input type="button" name="shareSubmit" value="確定">
+    <div>
+</div>

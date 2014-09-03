@@ -1,0 +1,83 @@
+div.sysSupplierCofMenuBackupListDir div.title
+{
+	position: relative;
+	width: 270px;
+	height: 30px;
+	line-height: 30px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	text-align: center;
+
+	background: rgb(252,255,244); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(252,255,244,1) 0%, rgba(223,229,215,1) 0%, rgba(179,190,173,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,255,244,1)), color-stop(0%,rgba(223,229,215,1)), color-stop(100%,rgba(179,190,173,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(252,255,244,1) 0%,rgba(223,229,215,1) 0%,rgba(179,190,173,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(252,255,244,1) 0%,rgba(223,229,215,1) 0%,rgba(179,190,173,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(252,255,244,1) 0%,rgba(223,229,215,1) 0%,rgba(179,190,173,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(252,255,244,1) 0%,rgba(223,229,215,1) 0%,rgba(179,190,173,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 ); /* IE6-9 */
+}
+
+div.sysSupplierCofMenuBackupListDir div.title div.close
+{
+	position: absolute;
+	left: 88%;
+	top:3px;
+	background: url("./images/bad.png");
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+}
+
+div.sysSupplierCofMenuBackupListDir div.path
+{
+	background-color: #fff;
+	width: 270px;
+}
+
+div.sysSupplierCofMenuBackupListDir div.path > input
+{
+	width: 225px;
+}
+
+
+div.sysSupplierCofMenuBackupListDir div.content
+{
+	width: 270px;
+	height: 240px;
+	background-color: #fff;
+	overflow: auto;
+}
+
+div.sysSupplierCofMenuBackupListDir ul, 
+div.sysSupplierCofMenuBackupListDir ul li
+{
+	margin: 0 0 0 -8px;
+    list-style: none;
+    cursor: pointer;
+}
+
+div.sysSupplierCofMenuBackupListDir li.folderOpen
+{
+	list-style-image:url('./images/folder_open.png');
+}
+
+div.sysSupplierCofMenuBackupListDir li.folderClose
+{
+	list-style-image:url('./images/directory.png');
+}
+
+div.sysSupplierCofMenuBackupListDir li a
+{
+	text-decoration: none;
+}
+
+div.sysSupplierCofMenuBackupListDir div.submit
+{
+	background-color: #fff;
+	border-top: 1px dotted;
+	padding: 3px 0 3px 0;
+	margin:0;
+}
+
+

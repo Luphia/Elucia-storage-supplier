@@ -1,0 +1,11 @@
+div.sysSupplierCofMenuBasic
+{
+	font-size: 0.9em;
+}
+
+div.sysSupplierCofMenuBasic div.submit
+{
+	margin-top: 10px;
+	width: 100%;
+	text-align: right;
+}

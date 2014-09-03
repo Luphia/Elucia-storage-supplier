@@ -1,0 +1,23 @@
+div.nav {
+  	margin-left: 10px;
+}
+
+div.nav div {
+  	float: left;
+}
+
+div.nav div:nth-child(1) {
+	  background: url(./images/iii_logo.png); 
+  	display: block;
+	  height: 25px;
+  	width: 25px;
+  	background-size: 25px;
+  	-webkit-background-size:25px;
+}
+
+div.nav div#path {
+	  font-size: 18px;
+  	margin-left: 10px;
+  	text-align: left;
+  	width: 350px;
+}

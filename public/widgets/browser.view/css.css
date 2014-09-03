@@ -1,0 +1,26 @@
+div.view {
+    margin-left: 10px;
+}
+
+div.view div#icon {
+    cursor: pointer;
+    display: block;
+	height: 30px;  
+    width: 30px;
+}
+
+div.view div.model {
+    display: none;
+}
+
+.viewIcon {
+    background: url(./images/file.png);
+    background-size: 10px;
+    -webkit-background-size: 10px;
+}
+
+.viewDetail {
+    background: url(./images/detail.png);
+    background-size: 30px;
+    -webkit-background-size: 30px;
+}

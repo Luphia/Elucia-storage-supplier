@@ -1,0 +1,13 @@
+div.back {
+	margin-left: 10px;
+}
+
+div.back div.icon {
+  	background: url(./images/back.png);
+  	cursor: pointer; 
+  	display: block;
+	height: 25px;
+  	width: 25px;
+  	background-size: 25px;
+  	-webkit-background-size:25px;
+}

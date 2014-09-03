@@ -1,0 +1,13 @@
+div.delete {
+    margin-left: 10px;
+}
+
+div.delete div.icon {
+    background: url(./images/trash.png);
+  	cursor: pointer; 
+  	display: block;
+    height: 25px;
+  	width: 25px;
+  	background-size: 25px;
+  	-webkit-background-size:25px;
+}

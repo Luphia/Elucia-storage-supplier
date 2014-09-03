@@ -1,0 +1,115 @@
+.fileIcon {
+    background: url(./images/file.png);
+    background-size: 68px 72px;
+    -webkit-background-size: 68px 72px;
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 68px;
+}
+
+.folderIcon {
+    background: url(./images/folder.png);
+    background-size: 80px 72px;
+    -webkit-background-size: 80px 72px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 80px;
+}
+
+.hover {
+    background-color: rgba(160, 176, 192, 0.5);
+}
+
+.selected {
+    // background: rgba(50, 50, 50, .5);  
+    background: #a0b0c0;
+}
+
+.small {
+    background-size: 40px;
+    -webkit-background-size: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40px;
+    margin: 0;
+    width: 40px;
+}
+
+.standard {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 72px;
+}
+
+.grid {
+    float: left;
+    margin: 2px;
+    width: 100px;
+}
+
+.list {
+    clear: left;
+    height: 40px;
+    margin: 0px;
+    width: 640px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.text {
+    color: #887766;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 40px;
+}
+
+div#file {
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    display: block;
+    font-size: .8em;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+div#file > div#icon {
+    cursor: pointer;
+    display: block;
+}
+
+div#file > div.name {
+    cursor: pointer;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;  
+    width: 100px;
+}
+
+div#file > div.date {
+    display: none;
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 116px;
+}
+
+div#file > div.msecond {
+    display: none;  
+}
+
+div#file > div.type {
+    display: none;
+}
+
+div#file > div.size {
+    display: none;
+    width: 80px;
+}
+
+div#file > div.path {
+    display: none;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    width: 300px;
+}

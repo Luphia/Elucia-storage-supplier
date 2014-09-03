@@ -1,0 +1,163 @@
+div.sysSupplierCof
+{
+	font-size: 0.9em;
+	width: 880px;
+}
+
+div.sysSupplierCof > div
+{
+	float: left;
+}
+
+div.sysSupplierCof div.menu
+{
+	min-width: 130px;
+	height: 100%; 
+	border-right: 1px dotted;
+}
+
+div.sysSupplierCof  div.menuContent
+{
+	margin: 0 5px 0 20px;
+	width: 720px;
+}
+
+div.sysSupplierCof div.menuContent table.tableStyle 
+{
+	color:#333333;
+	width:98%;
+	border-width: 1px;
+	border-color: #729ea5;
+	/*border-collapse: collapse;*/
+	font-size: 0.9em;
+}
+
+div.sysSupplierCof div.menuContent table.tableStyle th 
+{	
+	background-color: transparent;
+	padding: 10px;
+	text-align:center;
+	font-size: 1.2em;
+}
+
+div.sysSupplierCof div.menuContent table.tableStyle td 
+{
+	border: 1px solid #729ea5;
+	padding: 5px;
+}
+
+div.sysSupplierCof div.menuContent table.tableStyle td > input[type=text]
+{
+	border: 1px solid #BBBBBB; 
+    border-radius: 3px; 
+    width: 170px;
+}
+
+div.sysSupplierCof div.menuContent input[type=button]
+{
+	font-size: 0.9em;
+	margin-right: 15px;
+	cursor: pointer;
+	font-weight:normal;
+
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+
+	border:1px solid #84bbf3;
+	padding:5px 10px;
+
+	text-decoration:none;
+
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #bddbfa), color-stop(100%, #80b5ea) );
+	background:-moz-linear-gradient( center top, #bddbfa 5%, #80b5ea 100% );
+	background:-ms-linear-gradient( top, #bddbfa 5%, #80b5ea 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bddbfa', endColorstr='#80b5ea');
+	background-color:#bddbfa;
+
+	color:#ffffff;
+
+	text-shadow:1px 1px 0px #528ecc;
+}
+
+div.sysSupplierCof div.menuContent table.tableStyle td > input[type=range]
+{
+    opacity: 0.5;
+    width: 200px;
+}
+
+div.sysSupplierCof div.menuContent table.tableStyle td:first-child
+{
+	width: 20%;
+}
+
+div.sysSupplierCof div.menuContent table.tableStyle tr td:nth-child(2) > input[type=text].folder
+{
+	width: 380px;
+}
+
+div.sysSupplierCof div.menuContent table.tableStyle td div.enableSupplier > div,div.sysSupplierCof div.menuContent table.tableStyle td div.enableBackup > div
+{
+	float: left;
+}
+
+
+/*************************tag***************************/
+div.sysSupplierCof div.menuContent div.tagArea
+{
+	height: 30px;
+	width: 524px;
+}
+
+div.sysSupplierCof div.menuContent div.tag
+{
+	font-size: 0.9em;
+	text-align: center;
+	width: 130px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	
+
+	margin-right: 1px;
+	cursor: pointer;
+	color: #059;
+	font-weight: bolder;
+
+	background: #feffe8; /* Old browsers */
+	background: -moz-linear-gradient(top,  #feffe8 0%, #d6dbbf 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#feffe8), color-stop(100%,#d6dbbf)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #feffe8 0%,#d6dbbf 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #feffe8 0%,#d6dbbf 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #feffe8 0%,#d6dbbf 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #feffe8 0%,#d6dbbf 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffe8', endColorstr='#d6dbbf',GradientType=0 ); /* IE6-9 */
+}
+
+div.sysSupplierCof div.menuContent div.clilced
+{	
+	border-bottom: 2px solid red;
+	color: #fff;
+	background: ##cfe7fa; /* Old browsers */
+	background: -moz-linear-gradient(top,  #cfe7fa 0%, #6393c1 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cfe7fa), color-stop(100%,#6393c1)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #cfe7fa 0%,#6393c1 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #cfe7fa 0%,#6393c1 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #cfe7fa 0%,#6393c1 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #cfe7fa 0%,#6393c1 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */
+}
+
+div.sysSupplierCof div.menuContent div.tagContent
+{
+	width: 98%;
+	height: 370px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	margin-top: 15px;
+}
+
+div.sysSupplierCof div.menuContent div.tagContent > div
+{
+	display: none;
+}
